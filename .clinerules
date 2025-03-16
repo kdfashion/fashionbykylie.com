@@ -1,0 +1,82 @@
+# Fashion By Kylie - Project Rules
+
+## Project Patterns
+
+### File Structure
+- Use the Next.js App Router structure for all pages
+- Place reusable components in `src/app/components/`
+- Organize utility functions in `src/app/lib/`
+- Store global styles in `src/app/globals.css`
+- Keep static assets in the `public/` directory
+
+### Naming Conventions
+- Use PascalCase for React components: `ProductCard.tsx`
+- Use camelCase for utility functions and files: `formatPrice.ts`
+- Use kebab-case for CSS class names: `product-card`
+- Use snake_case for API endpoints: `/api/product_details`
+
+### Component Structure
+- Prefer functional components with TypeScript interfaces
+- Use named exports for components
+- Include prop type definitions for all components
+- Group related components in subdirectories
+
+### Styling Approach
+- Use Tailwind CSS for component styling
+- Define custom theme values in globals.css
+- Use CSS variables for theme colors and design tokens
+- Maintain the royal aesthetic throughout all UI elements
+
+### State Management
+- Use React Context for global state
+- Prefer server components for data fetching
+- Use client components only when interactivity is needed
+- Keep state as local as possible
+
+## Project Preferences
+
+### Code Style
+- Follow ESLint rules for code formatting
+- Use TypeScript for type safety
+- Add JSDoc comments for complex functions
+- Keep components focused on a single responsibility
+
+### Performance Considerations
+- Optimize images using Next.js Image component
+- Implement code splitting for large components
+- Use server components where possible to reduce client-side JavaScript
+- Implement proper loading states for async operations
+
+### Accessibility Standards
+- Ensure all interactive elements are keyboard accessible
+- Provide appropriate ARIA attributes
+- Maintain sufficient color contrast for text
+- Test with screen readers
+
+### Development Workflow
+- Create feature branches for new functionality
+- Write meaningful commit messages
+- Update Memory Bank documentation when making significant changes
+- Test on multiple devices before considering work complete
+
+## Project Intelligence
+
+### Brand Guidelines
+- Primary color: Gold (#D4AF37)
+- Supporting colors: Rich jewel tones and neutrals
+- Typography: Premium, elegant fonts
+- Visual style: Polished, luxurious, sophisticated
+
+### Key Implementation Paths
+- Product catalog is the core of the shopping experience
+- Mobile responsiveness is critical for the target audience
+- Performance optimization is essential for product images
+- Checkout process must be seamless and trustworthy
+
+### Known Challenges
+- Balancing royal aesthetic with modern usability
+- Optimizing performance while maintaining visual quality
+- Creating a cohesive experience across device sizes
+- Implementing secure e-commerce functionality
+
+This document will evolve as we work on the project and discover new patterns and preferences.

@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors */
+  --gold-primary: #D4AF37;
+  --gold-light: #E9D58A;
+  --gold-dark: #A68A2A;
+  
+  /* Jewel Tones */
+  --royal-purple: #5B2C6F;
+  --emerald: #145A32;
+  --sapphire: #1A5276;
+  --ruby: #922B21;
+  
+  /* Neutrals */
+  --cream: #F5F1E3;
+  --charcoal: #2C3E50;
+  --soft-black: #1C1C1C;
+  --pure-white: #FFFFFF;
+  
+  /* UI Colors */
+  --background: var(--pure-white);
+  --foreground: var(--soft-black);
+  --primary: var(--gold-primary);
+  --primary-hover: var(--gold-dark);
+  --accent: var(--royal-purple);
+  --muted: #F8F4E3;
+  --muted-foreground: #6B7280;
+  --border: #E2E8F0;
+  
+  /* Spacing */
+  --header-height: 80px;
+  --footer-height: 300px;
+  --page-padding: 2rem;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--soft-black);
+    --foreground: var(--cream);
+    --muted: #2D3748;
+    --muted-foreground: #9CA3AF;
+    --border: #2D3748;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Royal UI Elements */
+.gold-border {
+  border: 2px solid var(--gold-primary);
+}
+
+.royal-card {
+  background-color: var(--background);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-md);
+  border-top: 3px solid var(--gold-primary);
+}
+
+.royal-button {
+  background-color: var(--gold-primary);
+  color: var(--soft-black);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: background-color var(--transition-fast);
+}
+
+.royal-button:hover {
+  background-color: var(--gold-dark);
+}
+
+.royal-button-outline {
+  background-color: transparent;
+  color: var(--gold-primary);
+  border: 2px solid var(--gold-primary);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: all var(--transition-fast);
+}
+
+.royal-button-outline:hover {
+  background-color: var(--gold-primary);
+  color: var(--soft-black);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
