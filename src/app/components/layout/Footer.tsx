@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo />
             <p className="text-sm max-w-xs">
-              Reimagining royal elegance for the modern era. Premium women's clothing that blends regal sophistication with contemporary style.
+              Reimagining royal elegance for the modern era. Premium women&apos;s clothing that blends regal sophistication with contemporary style.
             </p>
             <div className="flex space-x-4 pt-2">
               <SocialLink href="https://instagram.com" label="Instagram">

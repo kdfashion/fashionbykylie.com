@@ -45,7 +45,7 @@ export default function Newsletter() {
           {isSuccess ? (
             <div className="bg-emerald/20 text-cream p-4 rounded-md mb-8">
               <p className="font-medium">Thank you for subscribing to our newsletter!</p>
-              <p className="text-sm mt-2">You'll be the first to know about our new collections and exclusive offers.</p>
+              <p className="text-sm mt-2">You&apos;ll be the first to know about our new collections and exclusive offers.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="max-w-md mx-auto">

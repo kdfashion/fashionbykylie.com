@@ -13,7 +13,7 @@ export const featuredProducts = [
     id: 'duchess-blouse',
     name: 'Duchess Blouse',
     price: 129.99,
-    imageSrc: 'https://images.unsplash.com/photo-1551163943-3f7fffb9d770?q=80&w=1000',
+    imageSrc: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=1000',
     category: 'Tops',
   },
   {
@@ -112,7 +112,7 @@ export const categories = [
     id: 'tops',
     name: 'Tops',
     description: 'Sophisticated blouses and tops for your wardrobe',
-    imageSrc: 'https://images.unsplash.com/photo-1551163943-3f7fffb9d770?q=80&w=1000',
+    imageSrc: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=1000',
     link: '/products/tops',
   },
   {
