@@ -3,12 +3,14 @@ import FeaturedProducts from './components/product/FeaturedProducts';
 import CategoryShowcase from './components/product/CategoryShowcase';
 import BrandStory from './components/ui/BrandStory';
 import Newsletter from './components/ui/Newsletter';
+import NewDesigns from './components/product/NewDesigns';
 import {
   featuredProducts,
   newArrivals,
   categories,
   heroContent,
-  brandStoryContent
+  brandStoryContent,
+  newDesignsContent
 } from './lib/sample-data';
 
 export default function Home() {
@@ -24,6 +26,15 @@ export default function Home() {
         secondaryCtaLink={heroContent.secondaryCtaLink}
         imageSrc={heroContent.imageSrc}
         imageAlt={heroContent.imageAlt}
+      />
+      
+      {/* Birthday New Designs Section */}
+      <NewDesigns
+        title={newDesignsContent.title}
+        subtitle={newDesignsContent.subtitle}
+        birthdayMessage={newDesignsContent.birthdayMessage}
+        ctaText={newDesignsContent.ctaText}
+        ctaLink={newDesignsContent.ctaLink}
       />
       
       {/* New Arrivals Section */}

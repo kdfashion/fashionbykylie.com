@@ -34,6 +34,9 @@ The Fashion By Kylie project is currently in the initial setup phase. We have es
 - 🔄 Navigation structure planning
 - 🔄 Responsive design approach
 
+### Special Features
+- ✅ Birthday celebration section with new designs showcase
+
 ## What's Left To Build
 
 ### Core Website Structure

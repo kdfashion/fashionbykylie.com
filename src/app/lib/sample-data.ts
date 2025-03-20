@@ -1,5 +1,13 @@
 // Sample product data for development purposes
 
+export const newDesignsContent = {
+  title: "New Designs",
+  subtitle: "Exclusive birthday collection celebrating a decade of royal fashion",
+  birthdayMessage: "I'm ten TODAY just like my fashion style! Happy birthday to me, Kylie",
+  ctaText: "Shop Birthday Collection",
+  ctaLink: "/collections/birthday"
+};
+
 export const featuredProducts = [
   {
     id: 'royal-elegance-dress',

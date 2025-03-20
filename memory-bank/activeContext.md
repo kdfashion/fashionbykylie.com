@@ -18,9 +18,13 @@ The project is currently in the initial setup phase. We have established the bas
   - systemPatterns.md
   - techContext.md
   - activeContext.md (this file)
-  - progress.md (to be created)
+  - progress.md
 - Initialized the Git repository
 - Configured ESLint for code quality
+- Added a "New Designs" section to the homepage featuring:
+  - Two showcase images (fashion1.jpeg and fashion2.jpeg)
+  - A birthday message celebrating Kylie's 10th birthday
+  - Integration with the existing design system
 
 ## Next Steps
 
